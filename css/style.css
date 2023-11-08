@@ -325,18 +325,18 @@ footer {
     width: 100%;
     margin-top: 200px;
     background: #f5f5f5;
+    padding: 50px 150px;
+    display: flex;
 }
 
 .block-footer1 {
     width: 50%;
-    padding: 50px 90px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red
 }
 
-.descr-company {
-    width: 550px;
+.descr-company, .descr-newsletter {
+    width: 600px;
     color: #9A9EA6;
     font-size: 20px;
     margin-top: 16px;
@@ -376,4 +376,79 @@ footer {
 .text-email {
     color: #9795ff;
     font-size: 18px;
+}
+
+.block-footer2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.form-email {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.form-email input {
+    width: 300px;
+    height: 56px;
+    border-radius: 30px;
+    border: 1px solid #808080;
+    background:rgb(126, 126, 126, 0.1);
+    font-size: 18px;
+    padding-left: 12px;
+    outline: none;
+}
+
+.form-email input:focus {
+    border: 1px solid #9795ff;
+}
+
+.form-email button {
+    width: 150px;
+    height: 56px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background: #9795ff;
+    cursor: pointer;
+}
+
+.mydias-social {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #E1E1FB;
+    display: grid;
+    place-items: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.circle img {
+    width: 24px;
+    height: 24px;
+}
+
+.circle:hover {
+    background: #cfcff6;
+}
+
+.text-copy {
+    color: #9A9EA6;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-left: auto;
 }
